@@ -54,7 +54,19 @@ export default function Navbar() {
                       <AvatarFallback>CN</AvatarFallback>
                     </Avatar>
                   </DropdownMenuTrigger>
+
                   <DropdownMenuContent>
+                    <Link to="/login">
+                      <DropdownMenuItem className="cursor-pointer">
+                        Login
+                      </DropdownMenuItem>
+                    </Link>
+                    <Link to="/signup">
+                      <DropdownMenuItem className="cursor-pointer">
+                        Sign up
+                      </DropdownMenuItem>
+                    </Link>
+
                     <DropdownMenuLabel>Account</DropdownMenuLabel>
                     <DropdownMenuSeparator />
                     <DropdownMenuItem className="cursor-pointer">
